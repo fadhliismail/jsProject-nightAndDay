@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#orb {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    padding: 20px;
+    top: 0; right: 0; bottom: 0; left: 0;
+    //background-color: antiquewhite;
+    transition: opacity 500 ease-in-out;
+}
+
+.sun {
+    background-color: orange;
+    border: 10px solid darkorange;
+}
+
+.moon {
+    background-color: azure;
+    border: 10px solid beige;
+}
+
+#sky {
+    height: 100%;
+    width: 100%;
+}
+
+.day {
+    background-color: aquamarine;
+}
+
+.night {
+    background-color: darkslategrey;
+}
